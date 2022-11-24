@@ -1,0 +1,50 @@
+{
+    "pages": [
+      "pages/main/main",
+        "pages/index/index",
+        "pages/notice/notice",
+        "pages/task/task",
+        "pages/my/my"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "智慧管养",
+        "navigationBarTextStyle": "black"
+    },
+     
+    "sitemapLocation": "sitemap.json",
+    "tabBar": {
+      "custom": true,
+      "color": "#959595",
+      "selectedColor": "#118fff",
+      "borderStyle": "white",
+      "backgroundColor": "#ffffff",
+      "list": [
+        {
+          "pagePath": "pages/index/index",
+          "text": "首页 ",
+          "iconPath": "images/tab/homepage.png",
+          "selectedIconPath": "images/tab/actived-homepage.png",
+          "index": 0
+        }, {
+          "pagePath": "pages/notice/notice",
+          "text": "通知 ",
+          "iconPath": "images/tab/notice.png",
+          "selectedIconPath": "images/tab/actived-notice.png",
+          "index": 1
+        }, {
+          "pagePath": "pages/task/task",
+          "text": "任务 ",
+          "iconPath": "images/tab/task.png",
+          "selectedIconPath": "images/tab/actived-task.png",
+          "index": 2
+        }, {
+          "pagePath": "pages/my/my",
+          "text": "我的 ",
+          "iconPath": "images/tab/my.png",
+          "selectedIconPath": "images/tab/actived-my.png",
+          "index": 3
+        }]
+}
+}

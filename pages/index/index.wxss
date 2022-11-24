@@ -1,0 +1,21 @@
+/**index.wxss**/
+page{
+  background-color: #efefef;
+  
+}
+.container{
+  padding: 0rpx;
+}
+.container view{
+  height: 400rpx;
+  background-color: white;
+  margin:10px;
+}
+.index-scan{
+  position: absolute;
+  left: 80%;
+  top: 75%;
+  border: 1px solid red;
+  width: 100rpx;
+  height: 100rpx;
+}

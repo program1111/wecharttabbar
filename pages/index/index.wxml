@@ -1,0 +1,11 @@
+<!--index.wxml-->
+<scroll-view scroll-y class="container">
+ 
+<view>A</view>
+<view>b</view>
+<view>c</view>
+</scroll-view>
+<view class="index-scan" bindtap="indexScan">
+<image src="/images/tree.png"></image>
+</view>
+

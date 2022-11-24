@@ -1,0 +1,18 @@
+<block>
+  <view wx:if="{{active == '首页'}}">
+<tabbar-index></tabbar-index>
+  </view>
+  <view wx:if="{{active == '通知'}}">
+    <tabbar-notice></tabbar-notice>
+  </view>
+  <view wx:if="{{active == '任务'}}"><tabbar-task></tabbar-task> </view>
+ 
+  <view wx:if="{{active == '我的'}}"><tabbar-my></tabbar-my> </view>
+</block>
+
+<van-tabbar active="{{ active }}" bind:change="onChange" placeholder="true" safe-area-inset-bottom>
+  <van-tabbar-item wx:for="{{list}}" wx:key="index" name="{{item.text}}" wx:if="{{item.isShow}}">
+    <image slot="icon" src="{{ item.iconPath }}" mode="aspectFit" style="width: 28px; height: 28px;" />
+    <image slot="icon-active" src="{{ item.selectedIconPath }}" mode="aspectFit" style="width: 28px; height: 28px;" /> {{item.text}}
+  </van-tabbar-item>
+</van-tabbar>

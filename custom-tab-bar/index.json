@@ -1,0 +1,11 @@
+{
+  "component": true,
+"usingComponents": {
+  "van-tabbar": "@vant/weapp/tabbar/index",
+  "van-tabbar-item": "@vant/weapp/tabbar-item/index",
+  "van-nav-bar": "@vant/weapp/nav-bar/index",
+  "todo-notice": "../../pages/index/index",
+  "indoor-check": "../../pages/my/my"
+}
+}
+ 
